@@ -1,68 +1,78 @@
-# WEB MASS SCAN 🔍
+# WEB MASS SCAN
 
-> **High-Performance Web Mass Scanner**  
-> *Developed by Tapr0baneSec*
-
-`WEB MASS SCAN` is an asynchronous, multi-threaded CLI tool designed for fast web reconnaissance and basic security posture auditing.
+A high-performance asynchronous web mass scanner for security auditing.
 
 ---
 
-## 📸 Screenshots
+## What is WEB MASS SCAN?
 
-![Banner](images/Screenshot_2026-07-22_131815.png)
-
-![Scan Results](images/Screenshot_2026-07-22_131831.png)
+`WEB MASS SCAN` is an automated CLI utility built to perform rapid target analysis, web application firewall (WAF) detection, and basic security configuration checks across multiple targets simultaneously using an async multi-threaded engine.
 
 ---
 
-## ✨ Features
+## Features
 
-* **Asynchronous & Multi-threaded Engine:** Fast target scanning.
-* **WAF & Firewall Detection:** Identifies web application firewalls.
-* **Security Header Analysis:** Checks for missing security headers (CORS, CSP, etc.).
-* **Basic Port & SSL/TLS Auditing:** Quick identification of open management ports.
+* **Async Multi-Threading Engine:** High-speed network requests.
+* **WAF Detection:** Identifies web application firewalls and basic protections.
+* **Header Security Check:** Audits missing security headers (CORS, HSTS, CSP).
+* **Port Availability Check:** Scans common web/management ports.
 
 ---
 
-## 🚀 Installation & Usage
+## Prerequisites
 
-### Prerequisites
-* Python 3.8+
+This tool requires **Python 3.8+** and basic network utilities. First run the following command on your terminal:
 
-### Setup
 ```bash
-# Clone the repository
+apt-get -y install python3 python3-pip git
+```
+
+---
+
+## Installing & Usage
+
+### 1. Clone the repository
+```bash
 git clone [https://github.com/YourUsername/web-mass-scan.git](https://github.com/YourUsername/web-mass-scan.git)
+```
 
-# Navigate to directory
+### 2. Navigate to directory
+```bash
 cd web-mass-scan
+```
 
-# Install dependencies
+### 3. Install required dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Run the tool
+### 4. Run the scanner
+```bash
 python main.py
 ```
 
 ---
 
-## ⚠️ Disclaimer
+## Clean logs & unnecessary files
 
-> **Notice:** This tool is provided for educational and authorized penetration testing purposes only. Usage of this tool against targets without prior mutual consent is illegal.
+To clear generated log files or cached scan results:
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to help improve this tool:
-
-1. **Fork** the repository.
-2. Create your feature branch (`git checkout -b feature/NewFeature`).
-3. **Commit** your changes (`git commit -m 'Add NewFeature'`).
-4. **Push** to the branch (`git push origin feature/NewFeature`).
-5. Open a **Pull Request**.
+```bash
+python cleanup.py
+```
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License.
+## This Tool Tested On:
+
+* Kali Linux
+* Ubuntu
+* Parrot Security OS
+* Windows (WSL)
+* Termux
+
+---
+
+## Disclaimer
+
+> **Notice:** This tool is strictly developed for educational and authorized testing purposes. Always ensure you have authorization before performing any scans on target systems.
