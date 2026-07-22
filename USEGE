@@ -1,0 +1,68 @@
+# WEB MASS SCAN 🔍
+
+> **High-Performance Web Mass Scanner**  
+> *Developed by Tapr0baneSec*
+
+`WEB MASS SCAN` is an asynchronous, multi-threaded CLI tool designed for fast web reconnaissance and basic security posture auditing.
+
+---
+
+## 📸 Screenshots
+
+![Banner](images/Screenshot_2026-07-22_131815.png)
+
+![Scan Results](images/Screenshot_2026-07-22_131831.png)
+
+---
+
+## ✨ Features
+
+* **Asynchronous & Multi-threaded Engine:** Fast target scanning.
+* **WAF & Firewall Detection:** Identifies web application firewalls.
+* **Security Header Analysis:** Checks for missing security headers (CORS, CSP, etc.).
+* **Basic Port & SSL/TLS Auditing:** Quick identification of open management ports.
+
+---
+
+## 🚀 Installation & Usage
+
+### Prerequisites
+* Python 3.8+
+
+### Setup
+```bash
+# Clone the repository
+git clone [https://github.com/YourUsername/web-mass-scan.git](https://github.com/YourUsername/web-mass-scan.git)
+
+# Navigate to directory
+cd web-mass-scan
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the tool
+python main.py
+```
+
+---
+
+## ⚠️ Disclaimer
+
+> **Notice:** This tool is provided for educational and authorized penetration testing purposes only. Usage of this tool against targets without prior mutual consent is illegal.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to help improve this tool:
+
+1. **Fork** the repository.
+2. Create your feature branch (`git checkout -b feature/NewFeature`).
+3. **Commit** your changes (`git commit -m 'Add NewFeature'`).
+4. **Push** to the branch (`git push origin feature/NewFeature`).
+5. Open a **Pull Request**.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
