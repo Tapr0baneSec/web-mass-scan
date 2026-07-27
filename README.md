@@ -1,4 +1,4 @@
-# WEB MASS SCAN V1.0.0
+# WEB MASS SCAN V2.0.0
 
 A high-performance asynchronous web mass scanner for security auditing.
 
