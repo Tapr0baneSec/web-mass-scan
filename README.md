@@ -78,7 +78,8 @@ python cleanup.py
 > **Notice:** This tool is strictly developed for educational and authorized testing purposes. Always ensure you have authorization before performing any scans on target systems.
 
 A high-performance async web mass scanner for security testing
-<img width="607" height="566" alt="Screenshot 2026-07-22 131815" src="https://github.com/user-attachments/assets/f716d3f7-ce9e-479a-9c79-2730219ea005" />
-<img width="595" height="589" alt="Screenshot 2026-07-22 131831" src="https://github.com/user-attachments/assets/6056a236-3fab-452a-b769-bfe9364fcd08" />
+<img width="706" height="666" alt="Screenshot 2026-07-27 134207" src="https://github.com/user-attachments/assets/0a0e22fc-ef5d-4dfd-a293-a9cfc81c4a43" />
+<img width="1844" height="825" alt="Screenshot 2026-07-27 134722" src="https://github.com/user-attachments/assets/a66023a6-761c-4963-91b3-df972a5be15d" />
+
 
 ![Web Mass Scan Banner](images/screenshot1.png)
